@@ -1,3 +1,4 @@
+require 'piggy_bank'
 # user story 1 = User can save money
 # PiggyBank can store_coins 
 
@@ -11,5 +12,5 @@
      # if not empty
 
 describe PiggyBank do
-    
+
 end
