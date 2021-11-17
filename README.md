@@ -1,6 +1,7 @@
 # TDD based on diagram :
 
-Red >> write a test >> Green >> User story >> Refactor >> Write the simplest possible code >> Unit test
+## User story - Unit test
+RED: Write a failing test >> GREEN : Write the simplest code to pass the test >> Refactor (orange)
 
 1
 ```
