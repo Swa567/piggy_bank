@@ -6,14 +6,12 @@ Red >> write a test >> Green >> User story >> Refactor >> Write the simplest pos
 ```
 User stories
 As a user,
-So that I can save money
+So that I can save money, I can put coins in my piggy bank
 ```
 2
 ```
-I can put coins in my piggy bank
 As a user,
-So that I know whether there are coins in my piggy bank
-I can shake it, and it will “cling” if there is money in it
+So that I know whether there are coins in my piggy bank, I can shake it, and it will “cling” if there is money in it
 ```
 3
 ```
