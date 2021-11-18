@@ -10,7 +10,7 @@ require 'piggy_bank'
 # user story 3 = User can retrive his/her savings
 # PiggyBank can be_brokens
     # return the number of coin
-     # if not empty
+     # if not empty  => raise error?
 
 describe PiggyBank do
     it { is_expected.to respond_to :store_coins }

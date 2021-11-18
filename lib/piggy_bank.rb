@@ -1,12 +1,16 @@
 class PiggyBank
   attr_reader :coins
-  
+
   def store_coins(coins)
     @coins = coins
   end
 
   def shaken
-    "cling" unless @coin == 0
+    "cling" if empty?
+  end
+
+  def empty?
+    @coins > 0
   end
 
   def breaks
