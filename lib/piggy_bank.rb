@@ -4,7 +4,7 @@ class PiggyBank
   end
 
   def shaken
-    
+    "cling"
   end
 
   def breaks

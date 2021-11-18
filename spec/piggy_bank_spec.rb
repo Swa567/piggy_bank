@@ -20,6 +20,11 @@ describe PiggyBank do
     
     it { is_expected.to respond_to :shaken }
 
+    it "clings when shaken" do
+        piggy_bank = PiggyBank.new
+        expect(piggy_bank.shaken).to eq "cling"
+    end
+
     it { is_expected.to respond_to :breaks }
     
 end
