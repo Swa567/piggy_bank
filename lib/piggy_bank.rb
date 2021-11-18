@@ -6,4 +6,8 @@ class PiggyBank
   def shaken
     
   end
+
+  def breaks
+
+  end
 end
