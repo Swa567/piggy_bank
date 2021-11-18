@@ -4,7 +4,7 @@ class PiggyBank
   end
 
   def shaken
-    "cling"
+    "cling" unless empty?
   end
 
   def breaks
