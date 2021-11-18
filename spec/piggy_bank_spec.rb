@@ -14,20 +14,25 @@ require 'piggy_bank'
 
 describe PiggyBank do
     it { is_expected.to respond_to :store_coins }
-    
-    it "should store the given number of coins" do
+
+    it "should store the given number of coins" do  # make "it block" like a feature test
         piggy_bank = PiggyBank.new
         expect(piggy_bank.store_coins(4)).to eq 4
     end
     
     it { is_expected.to respond_to :shaken }
 
-    it "clings when shaken" do                  # make "it block" like feature test
+    it "clings when shaken" do                      # make "it block" like a feature test
         piggy_bank = PiggyBank.new
-        piggy_bank.store_coins(4)               # make sure there are coins in piggy_bank
+        piggy_bank.store_coins(4)                   # make sure there are coins in piggy_bank
         expect(piggy_bank.shaken).to eq "cling"
     end
 
     it { is_expected.to respond_to :breaks }
-    
+
+    it "gives back the stored coins" do             # make "it block" like feature test
+        piggy_bank = PiggyBank.new
+        piggy_bank.store_coins(5)                    # make sure there are coins in piggy_bank
+        expect(piggy_bank.breaks).to eq 5
+    end
 end
