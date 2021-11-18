@@ -13,8 +13,8 @@ require 'piggy_bank'
      # if not empty
 
 describe PiggyBank do
-    it "should be able to store coins" do
-        # piggy_bank = PiggyBank.new
-        expecte(piggy_bank).to respond_to(:store_coins)
-    end
+    # it "should be able to store coins" do
+    #     # piggy_bank = PiggyBank.new
+    #     expect(piggy_bank).to respond_to(:store_coins)
+    it { is_expected.to respond_to :store_coins }
 end
