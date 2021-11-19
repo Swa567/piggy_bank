@@ -10,7 +10,7 @@ class PiggyBank
   end
 
   def empty?
-    @coins < 0
+    @coins < 1
   end
 
   def breaks

@@ -30,13 +30,13 @@ describe PiggyBank do
 
     it { is_expected.to respond_to :breaks }
 
-    it "gives back the stored coins" do             # make "it block" like feature test
+    it "gives back the stored coins" do             # make "it block" like a feature test
         piggy_bank = PiggyBank.new
         piggy_bank.store_coins(5)                   # make sure there are coins in piggy_bank
         expect(piggy_bank.breaks).to eq 5
     end
 
-    it "gives back nothing if it is empty" do        # make "it block" like feature test
+    it "gives back nothing if it is empty" do        # make "it block" a like feature test
         piggy_bank = PiggyBank.new
         piggy_bank.store_coins
         expect { piggy_bank.breaks }.to raise_error 'Your Piggy Bank is empty :('
