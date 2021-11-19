@@ -22,7 +22,7 @@ describe PiggyBank do
     
     it { is_expected.to respond_to :shaken }
 
-    it "clings when shaken and contains coins" do                      # make "it block" like a feature test
+    it "clings when shaken and contains coins" do   # make "it block" like a feature test
         piggy_bank = PiggyBank.new
         piggy_bank.store_coins(4)                   # make sure there are coins in piggy_bank
         expect(piggy_bank.shaken).to eq "cling"
