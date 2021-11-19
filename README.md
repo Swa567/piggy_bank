@@ -33,19 +33,19 @@ I can break my piggy bank and get back the number or coins that I had put in
 
 ```
 As a user,
-I should not be to hear "cling" if I shake an empty piggy bank
+I should not be able to hear "cling", if I shake an empty piggy bank
 ```
 
 5
 
 ```
 As a user,
-I will not be able to break an already broken piggy bank
+I should not be able to break an already broken piggy bank
 ```
 
 6
 
 ```
 As a user,
-I should not be able to store coins if I don't have a piggy bank
+I should not be able to store coins, if I don't have a piggy bank
 ```
